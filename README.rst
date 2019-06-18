@@ -7,36 +7,6 @@ Django Queryset Signals
 ===========
 A library that will send signals on queryset data manipulation methods. 
 | get_or_create       | X    |        |        |             |        | X             |                  |        |
-+---------------------+------+--------+--------+-------------+--------+---------------+------------------+--------+
-| get_or_create_exist |      |        |        |             |        | X             |                  |        |
-+---------------------+------+--------+--------+-------------+--------+---------------+------------------+--------+
-| update_or_create    | X    |        |        |             |        |               | X                |        |
-+---------------------+------+--------+--------+-------------+--------+---------------+------------------+--------+
-| update              |      |        |        |             |        |               |                  | X      |
-+---------------------+------+--------+--------+-------------+--------+---------------+------------------+--------+
-
-The _exists entries are when data matching already exists, and are only included when it affects behavior.
-
-How do I install it?
-====================
-.. sourcecode:: shell
-
-  pip install django-queryset-signals
-
-And then add 'django_queryset_signals' to your installed apps.
-
-How do I use it?
-================
-From the namespace django_query_signals you can import the below signals which
-you can connect to via the usual way.
-
- - pre_bulk_create
- - post_bulk_create,
- - pre_delete
- - post_delete
- - pre_get_or_create
- - post_get_or_create
- - pre_update_or_create
  - post_update_or_create
  - pre_update
  - post_update
