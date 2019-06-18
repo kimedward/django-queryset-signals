@@ -4,18 +4,6 @@ Django Queryset Signals
 
 .. image:: https://travis-ci.org/magenta-aps/django-queryset-signals.svg?branch=master
     :target: https://travis-ci.org/magenta-aps/django-queryset-signals
-
-Who made it?
-============
-This library was originally developed by `Martin P. Hellwig <https://bitbucket.org/hellwig/>`_ at `Bitbucket <https://bitbucket.org/hellwig/django-query-signals>`_.
-If you like this work, Martin notifies that you can repay him by donating via `Paypal <https://www.paypal.me/MartinHellwig>`_ or `Patreon <https://www.patreon.com/hellwig>`_.
-
-
-
-This fork contains breaking-changes, and is not compatible with the upstream project.
-Additionally the rest of this README file should be considered out-of-date.
-
-What is it?
 ===========
 A library that will send signals on queryset data manipulation methods. 
 
